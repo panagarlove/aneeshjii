@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aneesh's pathshala | registration</title>
+   <style>
+    *{
+    box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+.container{
+    background-color: #f6f0f0;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="pincode"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+fieldset{
+    background-color: whitesmoke;
+    border:2px solid black;
+}
+
+header{
+    color: black;
+    background-color: #f90e25;
+    text-align: right;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+input[type="reset"] {
+    background-color: #0febe4;
+    width: 10%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: cornflowerblue;
+    padding: 7px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: grab;
+}
+input[type="reset"]:hover {
+    background-color: aqua;
+    font-size: large;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #8a53ef;
+    font-size: large;
+    font-weight: bolder;
+}
+   </style>
+    
+</head>
+<body>
+    <header>
+        <h2>REGISTRATION FORM</h2>
+    </header>
+    <form action="">
+
+        <h6>Required field are allotted by *</h6>
+
+        <p>First name *<input type="text" name="first name" required></p>
+
+        <p>last name *<input type="text" name="last name" required></p>
+
+        <p>
+            <fieldset>
+                <legend>gender</legend>
+                male: <input type="radio" name="gender" id="male">
+                female: <input type="radio" name="gender" id="female">
+            </fieldset>
+        </p>
+
+        <p>phone number: <input type="number" name="" id=""></p>
+
+        <p>Email: <input type="email" name="email" id="email"></p>
+
+        <p>ADDRESS: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+        <input type="submit" value="submit"> <input type="reset" value="reset">
+
+    </form>
+
+</body>
+</html>
